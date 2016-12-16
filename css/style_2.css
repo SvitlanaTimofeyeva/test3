@@ -1,0 +1,135 @@
+﻿@font-face {
+    font-family: Lobster; 
+    src: url('../fonts/Lobster-Regular.ttf'); 
+}
+
+@font-face {
+    font-family: OleoScript; 
+    src: url('../fonts/OleoScript-Regular.ttf'); 
+}
+
+body { 
+    padding: 0;
+    margin: 0; 
+    overflow: hidden; 
+    background-color: #84cedf; 
+}
+
+.headings {
+    position: absolute;
+    z-index: 1000;
+    height: 100px;
+    width: 100%;
+    top: 154px;
+    text-align: center;
+}
+
+.headings h1 {
+    font-family: OleoScript; 
+    font-size: 68px; 
+    color: #2C3E50;
+}
+
+.headings h2 {
+    font-family: Lobster; 
+    font-size: 56px;  
+    color: #2C3E50;
+}
+
+.footer {
+    height: 90px; 
+    background-color: #34495E; 
+    position: absolute; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.bg-container {
+    position: absolute; 
+    top: 0; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.bg-container img {
+    width: 100%; 
+    height: auto;
+}
+
+.scenery-container {
+    position: absolute; 
+    bottom: 85px;
+    left: 0;
+    right: 0;
+}
+
+.scenery-container img {
+    width: 100%; 
+    height: auto;
+    z-index: 100;
+}
+
+.logo {
+    margin-top: 25px;
+    margin-left: 25px;
+} 
+
+.social {
+    float: right; 
+    margin-right: 25px; 
+    margin-top: 27px;
+}
+
+.icon {
+    float: right; 
+    cursor: pointer; 
+}
+
+.icon img {
+    width: 50px; 
+    margin-left: 15px;
+    margin-top: -9px;
+}
+
+.icon i {
+    color: #fff;
+    font-size: 23px; 
+    margin-left: -38px;
+}
+
+
+.scene-container {
+    position: absolute; 
+    bottom: 7px; 
+}
+
+#deer {
+    margin-top: 14px; 
+}
+#elves {
+    margin-top: -38px;
+}
+
+@media screen and (min-width: 1300px) {
+    .bg-container {
+        position: absolute; 
+        top: unset; 
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+} 
+
+@media screen and (max-width: 400px) {
+    .bg-container img {
+        width: 185%; 
+    }
+
+    .scenery-container img {
+        width: 210%; 
+    }
+
+}

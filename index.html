@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Merry Christmas!</title>
+    <link href="css/style_2.css" rel="stylesheet" />
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <meta charset="utf-8" />
+</head>
+<body>
+
+    <div class="bg-container">
+        <div class="headings">
+            <h1>We wish you a Merry Christmas</h1>
+            <h2>and a Happy New Year</h2>
+        </div>
+        <img src="img/clouds.png" />
+    </div>
+
+    <div class="scenery-container">
+        <img src="img/scenery.png" />
+    </div> 
+    <div class="scene-container">
+            <div class="row">
+                <div class="col-md-4 col-sm-4">
+                    <canvas id="deer" style="display: block; background-color:transparent"></canvas>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <canvas id="elves" style="display: block; background-color:transparent"></canvas>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <canvas id="giftbox" style="display: block; background-color:transparent"></canvas>
+                </div>
+            </div>
+        </div>
+
+
+
+     
+    <!--</div>-->
+    <div class="footer">
+        <img src="img/logo.png" alt="DinamickaDevelopment" class="logo" /> 
+        <div class="social">
+            <div class="icon">
+                <img src="img/circle.png" />
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </div>
+            <div class="icon">
+                <img src="img/circle.png" />
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </div>
+            <div class="icon">
+                <img src="img/circle.png" />
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </div>
+        </div>
+    </div> 
+
+    <script>
+	// change the default namespace for the CreateJS libraries:
+	var createjs1 = createjs1||{};
+	var createjs = createjs1;
+    </script>
+    <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+    
+    
+    <script src="js/src/Deer_animation.js"></script>  
+    <script src="js/src/init1.js"></script>
+
+    <script src="js/src/Elves_animation.js"></script>
+
+    <script src="js/src/init2.js"></script>
+
+    <script src="js/src/Giftbox_animation.js"></script>
+    <script src="js/src/init3.js"></script>-->
+</body>
+</html>
